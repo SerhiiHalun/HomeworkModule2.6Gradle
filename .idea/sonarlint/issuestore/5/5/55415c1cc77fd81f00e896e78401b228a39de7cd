@@ -1,0 +1,18 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8Μ¬τ1J$2d912931-be92-4206-a2f9-724742185040
+	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8Μ¬τ1J$74496687-42e9-430d-a59b-4331adc4ac05
+	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8Μ¬τ1J$7c84d3ad-02a4-46bb-9108-8b5c51ab36cc
+	java:S112H"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8Μ¬τ1J$9860d806-a660-4d8d-bf1c-5ba2d909e47a
+	java:S112X"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8ΐ¨Θτ1J$2be2270d-2872-43ca-b345-ab3cb3cb7954
+
+java:S20951"GUse try-with-resources or close this "Statement" in a "finally" clause.(Δ΅μ³8Έ»χτ1J$48e0ea7e-87c6-4551-94f6-68ce68c0ed01
+
+java:S2095R"GUse try-with-resources or close this "Statement" in a "finally" clause.(Δ΅μ³8Έ»χτ1J$68e867e5-fb9e-466a-a833-c93a83bc465f
+
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Δ΅μ³8ΆΜ¬τ1J$9a3e8791-b380-4136-98e1-96c799142db1
+
+java:S2095B"GUse try-with-resources or close this "Statement" in a "finally" clause.(Δ΅μ³8Έ»χτ1J$e17861e6-b56f-4864-8a62-6afa00bdc0bc
+
+java:S2095!"GUse try-with-resources or close this "Statement" in a "finally" clause.(Δ΅μ³8ΆΜ¬τ1J$8e1c6a19-be75-4590-9ba1-cab22a8538df
+}
+java:S1118":Add a private constructor to hide the implicit public one.(γΖ©8¥Μ¬τ1J$86530774-0d0a-426c-bcc8-edb8829f889b

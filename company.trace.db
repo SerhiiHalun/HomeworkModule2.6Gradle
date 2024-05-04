@@ -1,0 +1,458 @@
+2024-04-24 23:09:49.103190+03:00 database: flush
+org.h2.message.DbException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:253)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.DatabaseInitService.main(DatabaseInitService.java:9)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 20 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 14 more
+2024-05-04 14:53:11.319744+03:00 database: flush
+org.h2.message.DbException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:253)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.Main.main(Main.java:9)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 20 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 14 more
+2024-05-04 14:53:53.417644+03:00 database: flush
+org.h2.message.DbException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:253)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.Main.main(Main.java:9)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 20 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 14 more
+2024-05-04 14:54:05.976017+03:00 database: flush
+org.h2.message.DbException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:253)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.Main.main(Main.java:9)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 20 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 14 more
+2024-05-04 14:54:12.846615+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод разрешен только для запросов. Используйте execute или executeUpdate вместо executeQuery
+Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+CREATE TABLE worker(ID INT AUTO_INCREMENT PRIMARY KEY,NAME VARCHAR(1000)NOT NULL CHECK(LENGTH(NAME) BETWEEN 2 AND 1000),BIRTHDAY DATE CHECK (YEAR(BIRTHDAY)> 1900),LEVEL ENUM('Trainee','Junior','Middle','Senior') NOT NULL,SALARY INT CHECK (SALARY BETWEEN 100 AND 100000)) [90002-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.query(Prepared.java:256)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:252)
+	at org.h2.command.CommandList.query(CommandList.java:72)
+	at org.h2.command.Command.executeQuery(Command.java:192)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:101)
+	at org.example.DatabaseQueryService.findLongestProject(DatabaseQueryService.java:17)
+	at org.example.Main.main(Main.java:10)
+2024-05-04 14:55:21.615698+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод разрешен только для запросов. Используйте execute или executeUpdate вместо executeQuery
+Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+CREATE TABLE worker(ID INT AUTO_INCREMENT PRIMARY KEY,NAME VARCHAR(1000)NOT NULL CHECK(LENGTH(NAME) BETWEEN 2 AND 1000),BIRTHDAY DATE CHECK (YEAR(BIRTHDAY)> 1900),LEVEL ENUM('Trainee','Junior','Middle','Senior') NOT NULL,SALARY INT CHECK (SALARY BETWEEN 100 AND 100000)) [90002-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.query(Prepared.java:256)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:252)
+	at org.h2.command.CommandList.query(CommandList.java:72)
+	at org.h2.command.Command.executeQuery(Command.java:192)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:101)
+	at org.example.DatabaseQueryService.findLongestProject(DatabaseQueryService.java:17)
+	at org.example.Main.main(Main.java:10)
+2024-05-04 15:07:50.286287+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод разрешен только для запросов. Используйте execute или executeUpdate вместо executeQuery
+Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+CREATE TABLE worker(ID INT AUTO_INCREMENT PRIMARY KEY,NAME VARCHAR(1000)NOT NULL CHECK(LENGTH(NAME) BETWEEN 2 AND 1000),BIRTHDAY DATE CHECK (YEAR(BIRTHDAY)> 1900),LEVEL ENUM('Trainee','Junior','Middle','Senior') NOT NULL,SALARY INT CHECK (SALARY BETWEEN 100 AND 100000)) [90002-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.query(Prepared.java:256)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:252)
+	at org.h2.command.CommandList.query(CommandList.java:72)
+	at org.h2.command.Command.executeQuery(Command.java:192)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:101)
+	at org.example.DatabaseQueryService.findLongestProject(DatabaseQueryService.java:17)
+	at org.example.Main.main(Main.java:10)
+2024-05-04 15:18:33.830027+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "WORKER" уже существует
+Table "WORKER" already exists; SQL statement:
+CREATE TABLE worker(ID INT AUTO_INCREMENT PRIMARY KEY,NAME VARCHAR(1000)NOT NULL CHECK(LENGTH(NAME) BETWEEN 2 AND 1000),BIRTHDAY DATE CHECK (YEAR(BIRTHDAY)> 1900),LEVEL ENUM('Trainee','Junior','Middle','Senior') NOT NULL,SALARY INT CHECK (SALARY BETWEEN 100 AND 100000)) [42101-224]
+2024-05-04 15:22:43.104157+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод разрешен только для запросов. Используйте execute или executeUpdate вместо executeQuery
+Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+CREATE TABLE worker(ID INT AUTO_INCREMENT PRIMARY KEY,NAME VARCHAR(1000)NOT NULL CHECK(LENGTH(NAME) BETWEEN 2 AND 1000),BIRTHDAY DATE CHECK (YEAR(BIRTHDAY)> 1900),LEVEL ENUM('Trainee','Junior','Middle','Senior') NOT NULL,SALARY INT CHECK (SALARY BETWEEN 100 AND 100000)) [90002-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.query(Prepared.java:256)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:252)
+	at org.h2.command.CommandList.query(CommandList.java:72)
+	at org.h2.command.Command.executeQuery(Command.java:192)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:101)
+	at org.example.DatabaseQueryService.findLongestProject(DatabaseQueryService.java:17)
+	at org.example.Main.main(Main.java:10)
+2024-05-04 15:27:20.598561+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод разрешен только для запросов. Используйте execute или executeUpdate вместо executeQuery
+Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+CREATE TABLE worker(ID INT AUTO_INCREMENT PRIMARY KEY,NAME VARCHAR(1000)NOT NULL CHECK(LENGTH(NAME) BETWEEN 2 AND 1000),BIRTHDAY DATE CHECK (YEAR(BIRTHDAY)> 1900),LEVEL ENUM('Trainee','Junior','Middle','Senior') NOT NULL,SALARY INT CHECK (SALARY BETWEEN 100 AND 100000)) [90002-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.query(Prepared.java:256)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:252)
+	at org.h2.command.CommandList.query(CommandList.java:72)
+	at org.h2.command.Command.executeQuery(Command.java:192)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:101)
+	at org.example.DatabaseQueryService.findLongestProject(DatabaseQueryService.java:17)
+	at org.example.Main.main(Main.java:10)
+2024-05-04 15:29:02.700337+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Метод разрешен только для запросов. Используйте execute или executeUpdate вместо executeQuery
+Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+CREATE TABLE worker(ID INT AUTO_INCREMENT PRIMARY KEY,NAME VARCHAR(1000)NOT NULL CHECK(LENGTH(NAME) BETWEEN 2 AND 1000),BIRTHDAY DATE CHECK (YEAR(BIRTHDAY)> 1900),LEVEL ENUM('Trainee','Junior','Middle','Senior') NOT NULL,SALARY INT CHECK (SALARY BETWEEN 100 AND 100000)) [90002-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.Prepared.query(Prepared.java:256)
+	at org.h2.command.CommandContainer.query(CommandContainer.java:252)
+	at org.h2.command.CommandList.query(CommandList.java:72)
+	at org.h2.command.Command.executeQuery(Command.java:192)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:101)
+	at org.example.DatabaseQueryService.findLongestProject(DatabaseQueryService.java:17)
+	at org.example.Main.main(Main.java:10)
+2024-05-04 15:34:07.140894+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "WORKER" уже существует
+Table "WORKER" already exists; SQL statement:
+CREATE TABLE worker(ID INT AUTO_INCREMENT PRIMARY KEY,NAME VARCHAR(1000)NOT NULL CHECK(LENGTH(NAME) BETWEEN 2 AND 1000),BIRTHDAY DATE CHECK (YEAR(BIRTHDAY)> 1900),LEVEL ENUM('Trainee','Junior','Middle','Senior') NOT NULL,SALARY INT CHECK (SALARY BETWEEN 100 AND 100000)) [42101-224]
+2024-05-04 15:34:09.679696+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "WORKER" уже существует
+Table "WORKER" already exists; SQL statement:
+CREATE TABLE worker(ID INT AUTO_INCREMENT PRIMARY KEY,NAME VARCHAR(1000)NOT NULL CHECK(LENGTH(NAME) BETWEEN 2 AND 1000),BIRTHDAY DATE CHECK (YEAR(BIRTHDAY)> 1900),LEVEL ENUM('Trainee','Junior','Middle','Senior') NOT NULL,SALARY INT CHECK (SALARY BETWEEN 100 AND 100000)) [42101-224]
+2024-05-04 15:34:12.688963+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "WORKER" уже существует
+Table "WORKER" already exists; SQL statement:
+CREATE TABLE worker(ID INT AUTO_INCREMENT PRIMARY KEY,NAME VARCHAR(1000)NOT NULL CHECK(LENGTH(NAME) BETWEEN 2 AND 1000),BIRTHDAY DATE CHECK (YEAR(BIRTHDAY)> 1900),LEVEL ENUM('Trainee','Junior','Middle','Senior') NOT NULL,SALARY INT CHECK (SALARY BETWEEN 100 AND 100000)) [42101-224]
+2024-05-04 15:34:44.961839+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "WORKER" уже существует
+Table "WORKER" already exists; SQL statement:
+CREATE TABLE worker(ID INT AUTO_INCREMENT PRIMARY KEY,NAME VARCHAR(1000)NOT NULL CHECK(LENGTH(NAME) BETWEEN 2 AND 1000),BIRTHDAY DATE CHECK (YEAR(BIRTHDAY)> 1900),LEVEL ENUM('Trainee','Junior','Middle','Senior') NOT NULL,SALARY INT CHECK (SALARY BETWEEN 100 AND 100000)) [42101-224]
+2024-05-04 15:37:23.431677+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +        (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM [*]project pJOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                      (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      );"
+Syntax error in SQL statement "SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +        (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM [*]project pJOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                      (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      );"; SQL statement:
+SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +        (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM project pJOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                      (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      ); [42000-224]
+2024-05-04 15:39:38.737493+03:00 database: flush
+org.h2.message.DbException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:253)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.DatabaseQueryService.findLongestProject(DatabaseQueryService.java:13)
+	at org.example.Main.main(Main.java:10)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 21 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 15 more
+2024-05-04 15:44:51.198914+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +        (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM [*]project pJOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                      (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      );"
+Syntax error in SQL statement "SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +        (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM [*]project pJOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                      (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      );"; SQL statement:
+SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +        (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM project pJOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                      (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      ); [42000-224]
+2024-05-04 15:45:53.979195+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM [*]project p         JOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +      (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                     (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      );"
+Syntax error in SQL statement "SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM [*]project p         JOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +      (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                     (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      );"; SQL statement:
+SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM project p         JOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +      (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                     (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      ); [42000-224]
+2024-05-04 15:47:07.467155+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM [*]project p        JOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +      (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                     (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      );"
+Syntax error in SQL statement "SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM [*]project p        JOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +      (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                     (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      );"; SQL statement:
+SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM project p        JOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +      (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                     (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      ); [42000-224]
+2024-05-04 15:49:04.859598+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM [*]project p         JOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +      (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                     (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      );"
+Syntax error in SQL statement "SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM [*]project p         JOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +      (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                     (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      );"; SQL statement:
+SELECT c.NAME AS CLIENT_NAME,       (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +       (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) AS MONTH_COUNTFROM project p         JOIN client c ON c.ID = p.CLIENT_IDWHERE (YEAR(p.FINISH_DATE) - YEAR(p.START_DATE)) * 12 +      (MONTH(p.FINISH_DATE) - MONTH(p.START_DATE)) = (          SELECT MAX((YEAR(FINISH_DATE) - YEAR(START_DATE)) * 12 +                     (MONTH(FINISH_DATE) - MONTH(START_DATE)))          FROM project      ); [42000-224]
+2024-05-04 16:13:12.535598+03:00 database: flush
+org.h2.message.DbException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:253)
+	at org.example.Database.<init>(Database.java:13)
+	at org.example.Database.<clinit>(Database.java:8)
+	at org.example.DatabaseQueryService.findLongestProject(DatabaseQueryService.java:18)
+	at org.example.ExcuteClasses.Main.main(Main.java:13)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: Внутренняя ошибка: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]"
+General error: "org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 21 more
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: A:/Project Java/HomeWorkJava/HomeworkModule2.6Gradle/company.mv.db [2.2.224/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.SingleFileStore.lockFileChannel(SingleFileStore.java:143)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:117)
+	at org.h2.mvstore.SingleFileStore.open(SingleFileStore.java:81)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:286)
+	... 15 more
+2024-05-04 16:46:47.004041+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "TYPE" не найден
+Column "TYPE" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.DatabaseQueryService.findYoungestEldestWorker(DatabaseQueryService.java:69)
+	at org.example.ExcuteClasses.Main.main(Main.java:20)
+2024-05-04 16:47:23.519447+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "PROJECT_NAME" не найден
+Column "PROJECT_NAME" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.DatabaseQueryService.findProjectPrices(DatabaseQueryService.java:85)
+	at org.example.ExcuteClasses.Main.main(Main.java:23)
+2024-05-04 16:48:12.443606+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "PROJECT_NAME" не найден
+Column "PROJECT_NAME" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.DatabaseQueryService.findProjectPrices(DatabaseQueryService.java:85)
+	at org.example.ExcuteClasses.Main.main(Main.java:24)
+2024-05-04 16:49:29.479206+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "PROJECT_NAME" не найден
+Column "PROJECT_NAME" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.DatabaseQueryService.findProjectPrices(DatabaseQueryService.java:85)
+	at org.example.ExcuteClasses.Main.main(Main.java:24)
+2024-05-04 16:54:10.356422+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "CONCAT(c.NAME, ' - ', p.ID)""" не найден
+Column "CONCAT(c.NAME, ' - ', p.ID)""" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.DatabaseQueryService.findProjectPrices(DatabaseQueryService.java:85)
+	at org.example.ExcuteClasses.Main.main(Main.java:24)
+2024-05-04 16:54:37.689323+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "CONCAT(c.NAME, ' - ', p.ID)" не найден
+Column "CONCAT(c.NAME, ' - ', p.ID)" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.DatabaseQueryService.findProjectPrices(DatabaseQueryService.java:85)
+	at org.example.ExcuteClasses.Main.main(Main.java:24)
+2024-05-04 16:56:09.108026+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "PROJECT_NAME" не найден
+Column "PROJECT_NAME" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.DatabaseQueryService.findProjectPrices(DatabaseQueryService.java:85)
+	at org.example.ExcuteClasses.Main.main(Main.java:24)
+2024-05-04 16:56:21.384226+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "PROJECT_COST" не найден
+Column "PROJECT_COST" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:337)
+	at org.example.DatabaseQueryService.findProjectPrices(DatabaseQueryService.java:85)
+	at org.example.ExcuteClasses.Main.main(Main.java:24)
+2024-05-04 16:57:14.039970+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "2" для параметра "columnIndex"
+Invalid value "2" for parameter "columnIndex" [90008-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:658)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:298)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3524)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:319)
+	at org.example.DatabaseQueryService.findProjectPrices(DatabaseQueryService.java:85)
+	at org.example.ExcuteClasses.Main.main(Main.java:24)
+2024-05-04 16:59:19.089499+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "CONCAT(c.NAME, ' - ', p.ID)" не найден
+Column "CONCAT(c.NAME, ' - ', p.ID)" not found [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3518)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:301)
+	at org.example.DatabaseQueryService.findProjectPrices(DatabaseQueryService.java:85)
+	at org.example.ExcuteClasses.Main.main(Main.java:24)

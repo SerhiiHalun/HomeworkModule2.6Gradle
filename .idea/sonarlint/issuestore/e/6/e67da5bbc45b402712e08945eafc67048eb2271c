@@ -1,0 +1,12 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ğ°š™ô1J$b499ce61-d117-4e62-8e4a-49dbb7d2976d
+d
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Ä¡ì³8Í¾½ô1
+P
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8Ô¾½ô1
+\
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8Ö¾½ô1
+Q
+java:S1128"/Remove this unused import 'java.io.FileReader'.(Â¡¢äşÿÿÿÿ8Ø¾½ô1
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8Ø¾½ô1

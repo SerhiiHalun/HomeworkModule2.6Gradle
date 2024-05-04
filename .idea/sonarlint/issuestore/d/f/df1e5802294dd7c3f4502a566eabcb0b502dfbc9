@@ -1,0 +1,6 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òιόÿÿÿÿ8Όµ™τ1J$cba604cb-14e5-43e4-b44e-afb3f08df0d1
+
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(Δ΅μ³8’πετ1J$e58089bd-4823-49c5-b25e-834af3f2c15a
+f
+java:S1128"$Remove this unused import 'java.io'.(¬›γD8πετ1J$1b098eb5-ff83-4079-955f-a7a29aaf5619
